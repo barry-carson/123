@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fireworks Display</title>
+<title>Simple Fireworks</title>
 <style>
   body, html {
     margin: 0;
@@ -65,6 +65,7 @@
     });
   }
 
+  // Create a new firework every second
   setInterval(createFirework, 1000);
 </script>
 
